@@ -7206,25 +7206,25 @@ header {
 .flowers-topleft {
   top: 0%;
   left: 0%;
-  background: url(../img/flowers-topleft-2.png) no-repeat right bottom;
+  background: url(../img/fiori-topleft-2.png) no-repeat right bottom;
 }
 .flowers-topright {
   top: 0%;
   right: 0%;
   height: 55%;
-  background: url(../img/flowers-topright-2.png) no-repeat left bottom;
+  background: url(../img/fiori-topright-2.png) no-repeat left bottom;
 }
 .flowers-bottomright {
   bottom: 0%;
   right: 0%;
-  background: url(../img/flowers-bottomright-2.png) no-repeat left top;
+  background: url(../img/fiori-bottomright-2.png) no-repeat left top;
 }
 .flowers-bottomleft {
   bottom: 0%;
   left: 0%;
   height: 58%;
   width: 50%;
-  background: url(../img/flowers-bottomleft-2.png) no-repeat right top;
+  background: url(../img/fiori-bottomleft-2.png) no-repeat right top;
 }
 .flowers-leaves .flowers-topleft {
   -moz-transform: translate(-44%, -44%);
