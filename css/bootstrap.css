@@ -45,6 +45,10 @@ template {
 a {
   background-color: transparent;
 }
+a:visited {
+  color:inherit;
+}
+
 a:active,
 a:hover {
   outline: 0;
@@ -8058,7 +8062,7 @@ button:focus {
 .wrapper-item-menu .text .btn {
   margin-top: 20px;
 }
-.btn {
+/*.btn {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -8101,7 +8105,47 @@ button:focus {
 }
 .btn:hover .hover {
   left: 0px;
+}*/
+
+.btn {
+  font-size: 26px;
+  text-align: center;
+  line-height: 14px;
+  padding: 20px 30px 10px 30px;
+  
+  text-decoration: none;
+  color: white;
+  background-color: #395442;
+  border-radius: 4px;
+  text-shadow: 0 -1px -1px #2b3f31;
+  -moz-box-shadow: 0 4px 0 #2b3f31, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 0 #2b3f31, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 0 #2b3f31, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
+.btn:hover {
+  background-color: #43634e;
+  text-shadow: 0 -1px -1px #354e3d;
+  -moz-box-shadow: 0 4px 0 #354e3d, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 0 #354e3d, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 0 #354e3d, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.btn:active {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn:visited {
+  color: white;
+}
+
+.btn > span {
+  font-size: 13px;
+}
+
 .btnCloseMenu {
   background: none;
   border: none;
@@ -8469,6 +8513,7 @@ h1, h2, h3, h4 {
 
 .rsvp p {
   font-size: 18px;
+  margin-top:8px;
 }
 
 .masonry {
